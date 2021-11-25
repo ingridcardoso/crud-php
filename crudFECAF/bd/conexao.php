@@ -9,10 +9,10 @@
 //Estabelece a conexao com o BD Mysql
 function conexaoMysql(){
     //elementos para conectar o banco
-    $host = (string) "localhost"; //local do banco de dados
-    $user = (string) "root"; //usuario para autenticação do BD
-    $password = (string) "Dev@ingrid21"; //senha para autenticação do BD
-    $database = (string) "dbprojetofecaf"; //Database para utilizar o BD
+    $host = (string) ""; //local do banco de dados
+    $user = (string) ""; //usuario para autenticação do BD
+    $password = (string) ""; //senha para autenticação do BD
+    $database = (string) ""; //Database para utilizar o BD
     $conexao = (string) null; //"validacao de funcionamento"
 
     /* Bibliotecas para estabelecera conexão com o BD pelo PHP
