@@ -2,7 +2,7 @@
 *	Database: dbprojetofecaf
 *	Objetivo: Utilizar esse datababase para as aulas de PHP
 *	Data: 20/10/2021
-*	Autor: Prof. Marcel
+*	Autor: Ingrid
 *****************************************************************/
 
 #Apaga o database caso já exista
@@ -26,5 +26,5 @@ create table tblusuario (
 );
 
 #Insere o primeiro usuário padrão (root) na tabela
-insert into tblusuario (nome, nickname, login, senha, dataCadastro)
-	values ('Administrador', 'admin', 'root', 'root@root', '2021-10-20');
+insert into tblusuario (nome, nickname, email, login, senha, dataCadastro)
+	values ('Administrador', 'admin', 'root@root.com' 'root', 'root@root', '2021-10-20');
